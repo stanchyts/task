@@ -1,0 +1,134 @@
+.formOfAuth
+{
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	margin-top:7%;
+	margin-left:15%;
+}
+
+input
+{
+	width:80%;
+	vertical-align: middle; 
+	border:none; 
+	border-bottom-style:groove;
+}
+
+input:focus
+{
+	outline: none;
+}
+
+.mainMenu
+{
+	width:100%;
+	background-color: #002f1f;	
+	display: inline-block;
+	text-align:center;
+}
+
+.mainMenu a 
+{
+	color: white;
+	border: 20px solid transparent;
+	text-decoration: none;
+}
+
+ul.blocksOfMainMenu li 
+{
+    display: inline; 
+    margin-right: 5px; 
+    padding: 3px; 
+}
+
+.rowsOfBlocksItem > div 
+{
+    float: left;
+    width: 32%;
+	margin-top:2%;
+	margin-left:1%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.itemOfProduct 
+{
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	border-bottom: 2px solid #F5F5F5;
+	background: white;
+	font-family: "Open Sans";
+	transition: .3s ease-in;
+}
+
+.itemOfProduct:hover 
+{
+	border-bottom: 2px solid #002f1f;
+}
+
+.itemOfProduct img 
+{
+	display: block;
+	width: 100%;
+}
+
+
+.mainOfProduct 
+{
+	background: #fafafa;
+	padding: 15px 0;
+}
+
+.mainOfProduct h3 
+{
+	font-size: 16px;
+	font-weight: 400;
+	color: #002f1f;
+	margin: 0 0 10px 0;
+}
+
+.textAuth
+{
+	width:30%;
+	margin-left:35%;
+}
+
+.buttonOfAuth
+{
+	border:none;
+	display: inline-block;
+	padding: 0 12px;
+	background: #002f1f;
+	color: white;
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 28px;
+	transition: .3s ease-in;
+}
+
+.buttonOfRegistration
+{
+	text-decoration:none;
+	border:none;
+	display: inline-block;
+	padding: 0 12px;
+	background: #002f1f;
+	color: white;
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 28px;
+	transition: .3s ease-in;
+}
+
+.errorInformation
+{
+	color:red;
+}
+
+.newInformation
+{
+	color:green;
+}
